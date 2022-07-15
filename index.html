@@ -7,6 +7,23 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+<!-- --------------NAVIGATION BAR------------ -->
+    <header>
+        <div class="menubar">
+            <div class="logo">
+                <p> <a href="index.html">DairyFarm</a></p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Production Form</a></li>
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Income</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!-- --------------NAVIGATION BAR------------ -->
+
 <!-- ----------START OF FORM CONTAINER---------- -->
     
     <div class="formcontainer">
@@ -14,70 +31,47 @@
             <h1>Daily Production Form</h1>
             <form action="#">
                 <div class="shedselector">
-                    <label for="selectShed">Select Shed</label>
                     <br>
                     <!-- --------FIRST SELECTOR--------- -->
-                    <select name="selectShed" id="selectShed" onchange="getSelectValue();">
-                        <option hidden>Select Shed</option>
-                        <option value="shedA" id="optionShedA">Shed A</option>
-                        <option value="shedB" id="optionShedB">Shed B</option>
-                        <option value="shedC" id="optionShedC">Shed C</option>
-                        <option value="shedD" id="optionShedD">Shed D</option>
-                    </select>
                     <div class="quantityvalueinput">
-                        <label for="quantityinput">Quantity (L): </label>
-                        <input type="number" name="quantityinput" id="quantityInput1" required>
+                        <label for="quantityInputA" id="shedlabeltxt">SHED A</label>
+                        <label for="quantityInputA">Quantity (L): </label>
+                        <input type="number" name="quantityInputA" id="quantityInputA" required min="0" placeholder="0">
                     </div>
-                    <!-- <button type="submit">Add</button> -->
                     <!-- --------FIRST SELECTOR--------- -->
                     <br>
+                    <hr>
+                    <br>
                     <!-- --------SECOND SELECTOR--------- -->
-                    <select name="selectShed" id="selectShed" onchange="getSelectValue();">
-                        <option hidden>Select Shed</option>
-                        <option value="shedA" id="optionShedA">Shed A</option>
-                        <option value="shedB" id="optionShedB">Shed B</option>
-                        <option value="shedC" id="optionShedC">Shed C</option>
-                        <option value="shedD" id="optionShedD">Shed D</option>
-                    </select>
                     <div class="quantityvalueinput">
-                        <label for="quantityinput">Quantity (L): </label>
-                        <input type="number" name="quantityinput" id="quantityInputB" required>
+                        <label for="quantityInputB" id="shedlabeltxt">SHED B</label>
+                        <label for="quantityInputB">Quantity (L): </label>
+                        <input type="number" name="quantityInputB" id="quantityInputB" required min="0"  placeholder="0">
                     </div>
-                    <!-- <button type="submit">Add</button> -->
                     <!-- --------SECOND SELECTOR--------- -->
                     <br>
+                    <hr>
+                    <br>
                     <!-- --------THIRD SELECTOR--------- -->
-                    <select name="selectShed" id="selectShed" onchange="getSelectValue();">
-                        <option hidden>Select Shed</option>
-                        <option value="shedA">Shed A</option>
-                        <option value="shedB">Shed B</option>
-                        <option value="shedC">Shed C</option>
-                        <option value="shedD">Shed D</option>
-                    </select>
                     <div class="quantityvalueinput">
-                        <label for="quantityinput">Quantity (L): </label>
-                        <input type="number" name="quantityinput" id="quantityInputC" required>
+                        <label for="quantityInputC" id="shedlabeltxt">SHED C</label>
+                        <label for="quantityInputC">Quantity (L): </label>
+                        <input type="number" name="quantityInputC" id="quantityInputC" required min="0"  placeholder="0">
                     </div>
-                    <!-- <button type="submit">Add</button> -->
                     <!-- --------THIRD SELECTOR--------- -->
+                    <br>
+                    <hr>
                     <br>
                     <!-- --------FOURTH SELECTOR--------- -->
-                    <select name="selectShed" id="selectShed" onchange="getSelectValue();">
-                        <option hidden>Select Shed</option>
-                        <option value="shedA">Shed A</option>
-                        <option value="shedB">Shed B</option>
-                        <option value="shedC">Shed C</option>
-                        <option value="shedD">Shed D</option>
-                    </select>
                     <div class="quantityvalueinput">
-                        <label for="quantityinput">Quantity (L): </label>
-                        <input type="number" name="quantityinput" id="quantityInputD" required>
+                        <label for="quantityInputD" id="shedlabeltxt">SHED D</label>
+                        <label for="quantityInputD">Quantity (L): </label>
+                        <input type="number" name="quantityInputD" id="quantityInputD" required min="0"  placeholder="0">
                     </div>
-                    <!-- <button type="submit">Add</button> -->
                     <!-- --------FOURTH SELECTOR--------- -->
                     <br>
                     <button type="reset">Reset</button>
-                    <button type="submit">Submit</button>
+                    <button type="button" id="addBtn">Submit</button>
 
                 </div>
             </form>
