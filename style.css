@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.formcontainer{
+    margin-top: 15%;
+    width: 100%;
+}
+.formcont{
+    height: 600px;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #f1f1f1;
+}
+.formcont h1{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.formcont button{
+    font-size: 16px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: coral;
+    color: white;
+}
+
+@media screen and (max-width: 720px) {
+    .formcont{
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.shedselector{
+    margin: 18px 0;
+    width: 100%;
+}
+.shedselector label{
+    font-size: 20px;
+
+}
+.shedselector select{
+    font-size: 16px;
+    padding: 4px;
+    width: 120px;
+    margin-top: 6px;
+
+    
+}
+.shedselector select option{
+    font-size: 16px;
+    padding: 2px;
+    
+}
+.quantityvalueinput{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+.quantityvalueinput label{
+    font-size: 16px;
+    padding-right: 6px;
+}
+.quantityvalueinput input{
+    font-size: 16px;
+    padding: 4px;
+    width: 75px;
+}
+.shedselector button{
+margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
