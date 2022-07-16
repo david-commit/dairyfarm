@@ -1,87 +1,25 @@
-// DROPDOWN OPTIONS
-// function getSelectValue() {
-//     var selectedValue = document.getElementById("optionShedA").value
-//     console.log(selectedValue)
-// }
 
-// document.getElementById("addBtn").onclick = function(){
 
-// let quantityInputA = document.getElementById("quantityInputA").value;
-// console.log(quantityInputA);
+function displayQuantity() {
+   const textData1 = document.getElementById("quantityInputA").value;
+   document.getElementById("output1").innerHTML = "Your production in Shed A is " + textData1 + " litres per day ";
+   console.log(textData1);
+//    return textData1;
 
-// let quantityInputB = document.getElementById("quantityInputB").value;
-// console.log(quantityInputB);
+   const textData2 = document.getElementById("quantityInputB").value;
+   document.getElementById("output2").innerHTML = "Your production in Shed B is " + textData2 + " litres per day ";
+   console.log(textData2);
+//    return textData2;
 
-// let quantityInputC = document.getElementById("quantityInputC").value;
-// console.log(quantityInputC);
+   const textData3 = document.getElementById("quantityInputC").value;
+   document.getElementById("output3").innerHTML = "Your production in Shed C is " + textData3 + " litres per day ";
+   console.log(textData3);
+//    return textData3;
 
-// let quantityInputD = document.getElementById("quantityInputD").value;
-// console.log(quantityInputD);
-
-// }
-
-// let totalProduction;
-
-//     totalProduction = function(){
-
-//     let quantityInputA = document.getElementById("quantityInputA").value;
-//     // return quantityInputA;
+   const textData4 = document.getElementById("quantityInputD").value;
+   document.getElementById("output4").innerHTML = "Your production in Shed D is " + textData4 + " litres per day ";
+   console.log(textData4);
+//    return textData4;
+}
     
-//     let quantityInputB = document.getElementById("quantityInputB").value;
-//     // return quantityInputB;
-    
-//     let quantityInputC = document.getElementById("quantityInputC").value;
-//     // return quantityInputC;
-    
-//     let quantityInputD = document.getElementById("quantityInputD").value;
-//     // returnquantityInputD;
-    
-//     totalProduction = quantityInputA + quantityInputB + quantityInputC + quantityInputD;
-//     return totalProductionSum;
-
-//     }
-    // let textArea = document.getElementById("textArea");
-    // function placeText(){
-    //     totalProduction.innerHTML = textArea.value;
-    // }
-    // console.log(totalProduction);
-    // //  addBtn.addEventListener("click",textArea);
-
-
-
-
-
-
-
-
-
-
-
-
-// var shed = {"shedA" , "valueShedA"
-//     "shedD" , "valueShedB"
-// }
-
-
-// let nm = document.getElementById("name")
-
-// function namePrompt(){
-//     let nam = prompt("What's your name")
-
-//     nm.innerHTML = name
-
-// }
-
-// namePrompt()
-
-
-
-// const color = document.getElementById("color")
-
-// function colorPrompt(){
-//     let color = 
-
-//     color.innerHTML = color
-// }
-
-// colorPrompt()
+addBtn.addEventListener("click", displayQuantity);
