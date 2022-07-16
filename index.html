@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dairy Farm</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/958c73434d.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <!-- --------------NAVIGATION BAR------------ -->
@@ -16,8 +17,8 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Production Form</a></li>
-                    <li><a href="#">Sales</a></li>
-                    <li><a href="#">Income</a></li>
+                    <li><a href="sales.html">Sales</a></li>
+                    <li><a href="income.html">Income</a></li>
                 </ul>
             </nav>
         </div>
@@ -79,9 +80,20 @@
         </div>
     </div>
     <!-- ----------END OF FORM CONTAINER---------- -->
-    <!-- <div class="textbox">
-        <textarea name="totalProduction" id="totalProduction" cols="30" rows="10"></textarea>
-    </div> -->
+    <div class="textbox">
+        <h2><a href="#output">Summary <i class="fa-solid fa-angle-down"></i></a></h2>
+        <article id="output">
+            <p id="output1">gg</p>
+            <br>
+            <p id="output2">kjhui</p>
+            <br>
+            <p id="output3">kgu</p>
+            <br>
+            <p id="output4">yudf</p>
+            <br>
+            <p id="output5">yudf</p>
+        </article>        
+    </div>
 
 
 
@@ -99,6 +111,37 @@
 
 
 
-    <script src="./assets/js/index.js"></script>
+    
 </body>
+<script src="./assets/js/index.js"></script>
+<script type="text/javascript">
+    function displayQuantity1() {
+       const textData1 = document.getElementById("quantityInputA").value;
+       document.getElementById("output1").innerHTML = "Your production in Shed A is " + textData1 + " litres per day ";
+       console.log(textData1);
+       return textData1;
+    }
+    function displayQuantity2() {
+       const textData2 = document.getElementById("quantityInputB").value;
+       document.getElementById("output2").innerHTML = "Your production in Shed A is " + textData2 + " litres per day ";
+       console.log(textData2);
+       return textData2;
+    }
+
+    function displayQuantity3() {
+       const textData3 = document.getElementById("quantityInputC").value;
+       document.getElementById("output3").innerHTML = "Your production in Shed A is " + textData3 + " litres per day ";
+       console.log(textData3);
+       return textData3;
+    }
+
+    function displayQuantity4() {
+       const textData4 = document.getElementById("quantityInputD").value;
+       document.getElementById("output4").innerHTML = "Your production in Shed A is " + textData4 + " litres per day ";
+       console.log(textData4);
+       return textData4;
+    }
+        
+    addBtn.addEventListener("click",displayQuantity1,displayQuantity2,displayQuantity3,displayQuantity4);
+ </script>
 </html>

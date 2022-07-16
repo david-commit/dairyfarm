@@ -4,44 +4,48 @@
 //     console.log(selectedValue)
 // }
 
-document.getElementById("addBtn").onclick = function(){
+// document.getElementById("addBtn").onclick = function(){
 
-let quantityInputA = document.getElementById("quantityInputA").value;
-console.log(quantityInputA);
+// let quantityInputA = document.getElementById("quantityInputA").value;
+// console.log(quantityInputA);
 
-let quantityInputB = document.getElementById("quantityInputB").value;
-console.log(quantityInputB);
+// let quantityInputB = document.getElementById("quantityInputB").value;
+// console.log(quantityInputB);
 
-let quantityInputC = document.getElementById("quantityInputC").value;
-console.log(quantityInputC);
+// let quantityInputC = document.getElementById("quantityInputC").value;
+// console.log(quantityInputC);
 
-let quantityInputD = document.getElementById("quantityInputD").value;
-console.log(quantityInputD);
+// let quantityInputD = document.getElementById("quantityInputD").value;
+// console.log(quantityInputD);
 
-}
-var totalProduction = function(){
+// }
 
-    let quantityInputA = document.getElementById("quantityInputA").value;
-    // return quantityInputA;
+// let totalProduction;
+
+//     totalProduction = function(){
+
+//     let quantityInputA = document.getElementById("quantityInputA").value;
+//     // return quantityInputA;
     
-    let quantityInputB = document.getElementById("quantityInputB").value;
-    // return quantityInputB;
+//     let quantityInputB = document.getElementById("quantityInputB").value;
+//     // return quantityInputB;
     
-    let quantityInputC = document.getElementById("quantityInputC").value;
-    // return quantityInputC;
+//     let quantityInputC = document.getElementById("quantityInputC").value;
+//     // return quantityInputC;
     
-    let quantityInputD = document.getElementById("quantityInputD").value;
-    // returnquantityInputD;
+//     let quantityInputD = document.getElementById("quantityInputD").value;
+//     // returnquantityInputD;
     
-    totalProduction = "quantityInput"
-    return totalProduction;
+//     totalProduction = quantityInputA + quantityInputB + quantityInputC + quantityInputD;
+//     return totalProductionSum;
 
-    }
-    var textArea = document.getElementById("textArea");
-    function placeText(){
-        totalProduction.innerHTML = textArea.value;
-    }
-     addBtn.addEventListener("click",textArea)
+//     }
+    // let textArea = document.getElementById("textArea");
+    // function placeText(){
+    //     totalProduction.innerHTML = textArea.value;
+    // }
+    // console.log(totalProduction);
+    // //  addBtn.addEventListener("click",textArea);
 
 
 
