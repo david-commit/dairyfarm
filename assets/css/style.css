@@ -12,7 +12,7 @@
     color: white;
     justify-content: space-between;
     width: 100%;
-    padding: 10px;
+    padding: 12px 0;
 }
 .logo{
     width: 20%;
@@ -52,10 +52,9 @@ nav ul li a {
 }
 nav ul li a:hover{
     color: #ed661f;
-  
 }
 nav ul li a:active{
-    color: white;
+    color: #ed661f;
     text-decoration: underline;
 }
 #login{
@@ -109,8 +108,12 @@ nav ul li a:active{
     border: none;
     background-color: #ed661f;
     color: white;
-    margin-top: 35px;
-    
+    margin-top: 45px;
+    font-size: 18px;
+}
+.formbtns{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 @media screen and (max-width: 720px) {

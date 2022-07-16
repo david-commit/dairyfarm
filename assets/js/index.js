@@ -19,7 +19,29 @@ let quantityInputD = document.getElementById("quantityInputD").value;
 console.log(quantityInputD);
 
 }
+var totalProduction = function(){
 
+    let quantityInputA = document.getElementById("quantityInputA").value;
+    // return quantityInputA;
+    
+    let quantityInputB = document.getElementById("quantityInputB").value;
+    // return quantityInputB;
+    
+    let quantityInputC = document.getElementById("quantityInputC").value;
+    // return quantityInputC;
+    
+    let quantityInputD = document.getElementById("quantityInputD").value;
+    // returnquantityInputD;
+    
+    totalProduction = "quantityInput"
+    return totalProduction;
+
+    }
+    var textArea = document.getElementById("textArea");
+    function placeText(){
+        totalProduction.innerHTML = textArea.value;
+    }
+     addBtn.addEventListener("click",textArea)
 
 
 
