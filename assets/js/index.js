@@ -99,7 +99,7 @@ function displayQuantity() {
         var decIncome = totalProduction * sellingPrice * leapYear[11].dec;
         document.getElementById("dec").innerHTML = "Your December income is Ksh. " + decIncome;
         console.log(decIncome)
-        
+
 }
     
 addBtn.addEventListener("click", displayQuantity);
