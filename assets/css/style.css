@@ -78,6 +78,10 @@ nav ul li a:active{
     border-radius: 15px;
     background-color: #f1f1f1;
 }
+.formcont:active{
+    border: #ed661f 2px solid;
+    box-shadow: 2px 2px 2px #ed661f;
+}
 .formcont h1{
     font-size: 36px;
     margin-bottom: 30px;
@@ -107,14 +111,14 @@ nav ul li a:active{
     }
 }
 
-.shedselector{
+/* .shedselector{
     margin: 18px 0;
     width: 100%;
 }
 .shedselector label{
     font-size: 20px;
 
-}
+} */
 /* .shedselector select{
     font-size: 16px;
     padding: 4px;
@@ -159,6 +163,10 @@ nav ul li a:active{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+#output:active{
+    border: #ed661f 2px solid;
+    box-shadow: 2px 2px 2px #ed661f;
+}
 .textbox h2{
     padding: 20px 0;
 }
@@ -189,6 +197,10 @@ nav ul li a:active{
     width: 49%;
     height: 100px fixed;
 }
+#weeklyContainer:active{
+    border: #ed661f 2px solid;
+    box-shadow: 2px 2px 2px #ed661f;
+}
 #weeklyOutput{
     text-align: center;
     text-decoration: none;
@@ -214,7 +226,7 @@ nav ul li a:active{
 }
 #yearlyContainer:active{
     border: #ed661f 2px solid;
-    box-shadow: 5px 5px 5px #ed661f;
+    box-shadow: 2px 2px 2px #ed661f;
 }
 #yearlyOutput{
     text-align: center;
