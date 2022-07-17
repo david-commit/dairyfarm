@@ -109,6 +109,22 @@ nav ul li a:active{
         align-items: center;
         text-align: center;
     }
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .logo p a{
+        font-weight: 700;
+        margin: 0;
+        font-size: 30px;
+        text-decoration: none;
+        color: white;
+    }
 }
 
 /* .shedselector{
@@ -150,6 +166,7 @@ nav ul li a:active{
     padding: 4px;
     width: 75px;
 }
+
 /* ----------TEXT AREA------------- */
 .textbox{
     display: flex;
@@ -211,7 +228,6 @@ nav ul li a:active{
     align-items: center;
     margin-top: 12px;
 }
-
 /* ------------WEEKLY TEST AREA------------ */
 
 /* ------------YEARLY TEST AREA------------ */
@@ -238,18 +254,5 @@ nav ul li a:active{
     align-items: center;
     margin-top: 12px;
 }
-
 /* ------------YEARLY TEST AREA------------ */
-
-
-
-
-
-
-
-
-
-
-
-
 
