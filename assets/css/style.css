@@ -212,6 +212,10 @@ nav ul li a:active{
     width: 49%;
     height: 400px;
 }
+#yearlyContainer:active{
+    border: #ed661f 2px solid;
+    box-shadow: 5px 5px 5px #ed661f;
+}
 #yearlyOutput{
     text-align: center;
     text-decoration: none;

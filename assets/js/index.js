@@ -1,19 +1,19 @@
 var sellingPrice = 45;
 
-let leapYear = {
-    jan : 31,
-    feb : 29,
-    mar : 31,
-    apr : 30,
-    may : 31,
-    jun : 30,
-    jul : 31,
-    aug : 31,
-    sep : 30,
-    oct : 31,
-    nov : 30,
-    dec : 31
-}
+let leapYear = [{
+    jan : 31},
+    {feb : [29,28]},
+    {mar : 31},
+    {apr : 30},
+    {may : 31},
+    {jun : 30},
+    {jul : 31},
+    {aug : 31},
+    {sep : 30},
+    {oct : 31},
+    {nov : 30},
+    {dec : 31
+}];
 
 function displayQuantity() {
    const textData1 = parseInt(document.getElementById("quantityInputA").value);
@@ -36,6 +36,7 @@ function displayQuantity() {
    console.log(textData4);
 //    return textData4;
 
+    // Total Production
     var totalProduction = parseInt(textData1 + textData2 + textData3 + textData4);
     document.getElementById("output5").innerHTML = "Your production in all Sheds is " + totalProduction + " litres per day ";
     console.log(totalProduction)
@@ -46,58 +47,59 @@ function displayQuantity() {
     console.log(weeklyIncome)
 
     // Yearly Income
-    var yearlyIncome = totalProduction * sellingPrice * 365;
+    var yearlyIncome = totalProduction * sellingPrice * 366;
     document.getElementById("yearlyIncome").innerHTML = "Your yearly income will be Ksh. " + yearlyIncome;
     console.log(yearlyIncome)
 
         // Monthly Income
-        var janIncome = totalProduction * sellingPrice * leapYear.jan;
+        var janIncome = totalProduction * sellingPrice * leapYear[0].jan;
         document.getElementById("jan").innerHTML = "Your January income is Ksh. " + janIncome;
         console.log(janIncome)
 
-        var febIncome = totalProduction * sellingPrice * leapYear.feb;
+        var febIncome = totalProduction * sellingPrice * leapYear[1].feb[0];
         document.getElementById("feb").innerHTML = "Your February income is Ksh. " + febIncome;
         console.log(febIncome)
 
-        var marIncome = totalProduction * sellingPrice * leapYear.mar;
+        var marIncome = totalProduction * sellingPrice * leapYear[2].mar;
         document.getElementById("mar").innerHTML = "Your March income is Ksh. " + marIncome;
         console.log(marIncome)
         
-        var aprIncome = totalProduction * sellingPrice * leapYear.apr;
+        var aprIncome = totalProduction * sellingPrice * leapYear[3].apr;
         document.getElementById("apr").innerHTML = "Your April income is Ksh. " + aprIncome;
         console.log(aprIncome)
         
-        var mayIncome = totalProduction * sellingPrice * leapYear.may;
+        var mayIncome = totalProduction * sellingPrice * leapYear[4].may;
         document.getElementById("may").innerHTML = "Your May income is Ksh. " + mayIncome;
         console.log(mayIncome)
 
-        var junIncome = totalProduction * sellingPrice * leapYear.jun;
+        var junIncome = totalProduction * sellingPrice * leapYear[5].jun;
         document.getElementById("jun").innerHTML = "Your June income is Ksh. " + junIncome;
         console.log(junIncome)
 
-        var julIncome = totalProduction * sellingPrice * leapYear.jul;
+        var julIncome = totalProduction * sellingPrice * leapYear[6].jul;
         document.getElementById("jul").innerHTML = "Your July income is Ksh. " + julIncome;
         console.log(julIncome)
 
-        var augIncome = totalProduction * sellingPrice * leapYear.aug;
+        var augIncome = totalProduction * sellingPrice * leapYear[7].aug;
         document.getElementById("aug").innerHTML = "Your August income is Ksh. " + augIncome;
         console.log(augIncome)
 
-        var sepIncome = totalProduction * sellingPrice * leapYear.sep;
+        var sepIncome = totalProduction * sellingPrice * leapYear[8].sep;
         document.getElementById("sep").innerHTML = "Your September income is Ksh. " + sepIncome;
         console.log(sepIncome)
 
-        var octIncome = totalProduction * sellingPrice * leapYear.oct;
+        var octIncome = totalProduction * sellingPrice * leapYear[9].oct;
         document.getElementById("oct").innerHTML = "Your October income is Ksh. " + octIncome;
         console.log(octIncome)
 
-        var novIncome = totalProduction * sellingPrice * leapYear.nov;
+        var novIncome = totalProduction * sellingPrice * leapYear[10].nov;
         document.getElementById("nov").innerHTML = "Your November income is Ksh. " + novIncome;
         console.log(novIncome)
 
-        var decIncome = totalProduction * sellingPrice * leapYear.dec;
+        var decIncome = totalProduction * sellingPrice * leapYear[11].dec;
         document.getElementById("dec").innerHTML = "Your December income is Ksh. " + decIncome;
         console.log(decIncome)
+
 }
     
 addBtn.addEventListener("click", displayQuantity);
