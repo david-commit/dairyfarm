@@ -15,6 +15,9 @@
 ## Description
 <p> DairyFarm is a milk production monitoring system that enables one to input the values of produced milk per cow shed and return income values based on weekly, monthly and annual milk production. It contains a single static landing page of the DairyFarm that is visually appealing and is a major boost to monitoring daily production.</p>
 
+## Deployment
+<p>This is a live link of the project: https://david-commit.github.io/dairyfarm/</p>
+
 ## Installation
 
 <p>Run by launching the index.html file on any browser of your choice</p>
