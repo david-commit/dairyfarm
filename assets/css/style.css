@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
     /* overflow: hidden; */
 }
+
 /* --start of menubar-- */
 .menubar{
     display:flex;
@@ -23,7 +24,7 @@
 .logo p a{
     font-weight: 700;
     margin: 0;
-    font-size: 55px;
+    font-size: 50px;
     text-decoration: none;
     color: white;
 }
@@ -151,7 +152,7 @@ nav ul li a:active{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 60%;
     padding: 12px;
     margin-right: auto;    
     margin-left: auto;
@@ -178,13 +179,51 @@ nav ul li a:active{
 }
 /* ----------TEXT AREA------------- */
 
+/* ------------WEEKLY TEST AREA------------ */
+#weeklyContainer {
+    margin: 60px auto 0 auto;
+    border: 1px solid #ed661f;
+    border-radius: 15px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    width: 49%;
+    height: 100px fixed;
+}
+#weeklyOutput{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+#weeklyIncome{
+    color: black;
+    align-items: center;
+    margin-top: 12px;
+}
 
+/* ------------WEEKLY TEST AREA------------ */
 
+/* ------------YEARLY TEST AREA------------ */
+#yearlyContainer {
+    margin: 60px auto 100px auto;
+    border: 1px solid #ed661f;
+    border-radius: 15px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    width: 49%;
+    height: 400px;
+}
+#yearlyOutput{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+#yearlyIncome{
+    color: black;
+    align-items: center;
+    margin-top: 12px;
+}
 
-
-
-
-
+/* ------------YEARLY TEST AREA------------ */
 
 
 
