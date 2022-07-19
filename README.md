@@ -1,7 +1,6 @@
-# DairyFarm Milk Production
-
+# DairyFarm Milk Production Monitoring System
 ##### By David Ondiege
-### Information about the project on the Dairy Farm Production Projecct
+
 
 ## Table of Content
 
@@ -37,7 +36,7 @@
 
 * CSS - Is used to style the pages and give a it an appealing visual appearance.
 
-JavaScript - Is used to perform mathematical computations that returns useful data to the user.
+* JavaScript - Is used to perform mathematical computations that returns useful data to the user.
 
 ## Reference
 * Moringa School Course Content
